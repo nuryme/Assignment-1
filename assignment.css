@@ -156,3 +156,73 @@ header .nav #btn {
     height: 100%;
 }
 
+/* inspiration section's style is here */
+.inspiration {
+    padding: 0 150px;
+}
+.inspiration .container {
+    text-align: center;
+}
+.inspiration .container .content {
+    padding: 0 97px;
+}
+.inspiration .container .video {
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.inspiration .container .video iframe {
+    width: 100%;
+    height: 1000px;
+    border-radius: 16px;
+}
+
+/* current target section's style is here */
+.target {
+    text-align: center;
+    padding: 150px 150px 111px 150px;
+}
+.target .container {
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+}
+.target .container .content {
+    padding: 40px;
+    text-align: left;
+    border-radius: 16px;
+}
+.text-content h1 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+}
+.text-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 8px;
+}
+.text-content a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    margin-top: 24px;
+    display: block;
+}
+.target .container .pink {
+    background: rgba(255, 76, 30, 0.05);
+}
+.target .container .blue {
+    background: rgba(0, 76, 232, 0.05);
+}
+.target .container .yellow {
+    background: rgba(255, 223, 0, 0.05);
+}
+
