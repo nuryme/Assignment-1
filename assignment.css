@@ -11,6 +11,9 @@
     font-family: "Azeret Mono", monospace;
     color: var(--color);
 }
+button {
+    cursor: pointer;
+}
 #btn {
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -99,6 +102,9 @@ header .nav #btn {
     color: white;
     padding: 21px 24px;
     margin-top: 32px;
+}
+.hero-section div a {
+    color: white;
 }
 
 
