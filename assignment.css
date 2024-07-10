@@ -38,6 +38,10 @@ p {
     margin-bottom: 48px;
     padding: 0 48px;
 }
+.text-container {
+    padding: 0 97px;
+}
+
 
 
 
@@ -95,5 +99,54 @@ header .nav #btn {
     color: white;
     padding: 21px 24px;
     margin-top: 32px;
+}
+
+
+/* main section's style is here */
+
+/* why web development section's style is here */
+.web {
+    text-align: center;
+    margin: 74px 150px 88px 150px;
+}
+.web .container {
+    padding: 80px 97px;
+}
+.web .container .flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.web .container .flex-container .flex-section {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+.web .container .flex-container .flex-section .content{
+    text-align: left;
+    width: 500px;
+}
+.web .container .flex-container .flex-section .content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.web .container .flex-container .flex-section .content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 16px;
+}
+.web .container .flex-container .flex-section .content #btn {
+    padding: 12px 20px 12px 20px;
+    border-radius: 0;
+}
+.web .container .flex-container .middle {
+    justify-content: normal;
+    gap: 150px;
+}
+.web .container .flex-container .middle img {
+    height: 100%;
 }
 
